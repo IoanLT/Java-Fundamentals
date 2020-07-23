@@ -6,13 +6,39 @@ package labs_examples.fundamentals.examples;
   Call this file ForDemo.java.
 */
 class ForDemo {
-    public static void main(String args[]) {
-        int count;
+    public static void main(String[] args) {
+        String[] zergArray = {"drone", "ling", "roach", "hydra", "ultra"};
+        for (int i = 0; i < zergArray.length; i++) {
+            Zerg zerg = new Zerg();
+            zerg.name = zergArray[i];
+            System.out.println(zergArray[i]);
+        }
 
-        //for(initialization; condition; iteration) statement;
-        for(count = 0; count < 5; count = count+1)
-            System.out.println("This is count: " + count);
+        String[] protossArray = {"probe", "zealot", "templar"};
+        for (int i = 0; i < protossArray.length; i++) {
+            Protoss protoss = new Protoss();
+            protoss.name = protossArray[i];
+            System.out.println(protossArray[i]);
+        }
 
-        System.out.println("Done!");
+        String[] terranArray = {"scv", "marine", "thor", "banshee"};
+        for (int i = 0; i < terranArray.length; i++) {
+            Terran terran = new Terran();
+            terran.name = terranArray[i];
+            System.out.println(terranArray[i]);
+        }
+
+    }
+
+    public static class Zerg {
+        public String name;
+    }
+
+    public static class Protoss {
+        public String name;
+    }
+
+    public static class Terran {
+        public String name;
     }
 }
