@@ -8,7 +8,8 @@ import java.util.Scanner;
  *      Take in a number in days from the user between 1 and 1,000,000 and convert it to
  *      seconds.
  *
- *      NOTE: We will be using the Scanner class to collect user input. This is demonstrated below.
+ *      NOTE: We will be using the Scanner class to collect user input.
+ *      This is demonstrated below.
  *
  */
 
@@ -23,7 +24,7 @@ public class Exercise_07 {
         // assign input to variable as int
         int days = scanner.nextInt();
 
-        // write completed code here
-
+        long secondsInDay = days * 86400;
+        System.out.println("The number of seconds for " + days + " days is: " + secondsInDay);
     }
 }

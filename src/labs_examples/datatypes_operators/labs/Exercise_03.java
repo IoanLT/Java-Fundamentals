@@ -10,7 +10,11 @@ class ArithmeticOperators {
 
     public static void main(String[] args) {
 
-        // write your code below
+        byte byteNum = 4 + 5;
+        int intNum = 10 - 8;
+        double doubleNum = 5 / 6;
+        float floatNum = 48f * 32f;
+        int x = 30 % 12;
 
     }
 
