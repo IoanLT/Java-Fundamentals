@@ -13,6 +13,8 @@ public class Exercise_03 {
         Scanner input = new Scanner(System.in);
         System.out.println("Please enter a number between 1 and 12");
         int num = input.nextInt();
+
+
         switch (num) {
             case 1 :
                 System.out.println("January");
