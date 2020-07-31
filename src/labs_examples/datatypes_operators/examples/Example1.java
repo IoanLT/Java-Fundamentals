@@ -18,3 +18,7 @@ class Inches {
 
     }
 }
+
+// Data structures and algorithms, store the data(databases)
+// Networking, Operating systems, how the internet works
+// June calls
