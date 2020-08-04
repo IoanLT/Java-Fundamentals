@@ -18,12 +18,28 @@ import java.util.Scanner;
 public class Exercise_07 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        String word = input.nextLine();
+        System.out.println("Type in any word");
+        String word = input.next();
         String vowels = "aeiou";
 
-//        int i = 0;
-//        while (i < word.length()) {
-//            if(word.charAt(i) == )
-//        }
+        int i = 0;
+        while (i < word.length()) {
+            if(word.charAt(i) == vowels.indexOf(0)){
+                System.out.println(word + " a");
+            }
+            else if(word.charAt(i) == vowels.indexOf(1)){
+                System.out.println(word + " e");
+            }
+            else if(word.charAt(i) == vowels.indexOf(2)){
+                System.out.println(word + " i");
+            }
+            else if(word.charAt(i) == vowels.indexOf(2)){
+                System.out.println(word + " i");
+            }
+            else if(word.charAt(i) == vowels.indexOf(4)){
+                System.out.println(word + " u");
+            }
+            i++;
+        }
     }
 }

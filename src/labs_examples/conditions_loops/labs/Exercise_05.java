@@ -25,12 +25,13 @@ public class Exercise_05 {
         System.out.println("Please enter a number between 70 and 100");
         int num2 = input.nextInt();
         int sum = 0;
+        double avg = 0;
 
         for (int i = num1; i <= num2; i++) {
-            if(i == num1 && i <= num2) {
-                sum += i;
-            }
+            sum += i;
+            avg = sum / num2;
         }
         System.out.println(sum);
+        System.out.println(avg);
     }
 }
